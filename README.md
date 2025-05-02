@@ -22,3 +22,12 @@ This project automates the **ETL process** for customer transaction data in a re
 ### 3️⃣ Load
 - Store transformed data in a **MySQL database**.
 - Ensure indexing for optimized querying performance.
+
+---
+
+## 👤 Author
+Developed by **Cley**  
+📧 Contact: 02clintaudrey@gmail.com 
+🌐 GitHub: SecreShall
+
+---
