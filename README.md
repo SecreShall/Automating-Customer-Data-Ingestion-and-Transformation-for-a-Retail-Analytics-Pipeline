@@ -1,5 +1,7 @@
 # 🚀 Automating Customer Data Ingestion and Transformation for a Retail Analytics Pipeline
 
+# IN PROGRESS
+
 ## 📌 Overview
 This project automates the **ETL process** for customer transaction data in a retail analytics pipeline. Using **Apache Airflow**, Python, MySQL, and APIs, it streamlines data ingestion, transformation, and storage for efficient reporting and analysis.
 
