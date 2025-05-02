@@ -19,22 +19,22 @@ default_args={
 
 }
 
-extract_task = PythonOperator{
+extract_task = PythonOperator(
     task_id='extract',
     python_callable=extract,
     dag=dag,
-}
+)
 
-transform_task = PythonOperator{
+transform_task = PythonOperator(
     task_id='transform',
     python_callable=transform,
     dag=dag,
-}
+)
 
-load_task = PythonOperator{
+load_task = PythonOperator(
     task_id='load',
     python_callable=load,
     dag=dag,
-}
+)
 
 extract_task >> transform_task >> load_task
