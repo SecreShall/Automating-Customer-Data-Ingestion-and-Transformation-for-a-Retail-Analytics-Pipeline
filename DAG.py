@@ -1,19 +1,10 @@
 #import libraries
-import pandas as pd
 from airflow.operators.python import PythonOperator
 from airflow import DAG
 from datetime import timedelta
-
-def extract():
-    print('yameteee')
+import ETL
 
 
-def transform():
-	pass
-
-
-def load():
-    pass
 
 
 default_args={
