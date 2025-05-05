@@ -2,13 +2,13 @@
 from airflow.operators.python import PythonOperator
 from airflow import DAG
 from datetime import timedelta
-import ETL
-
-
-
+from ETL import extract, transform, load
 
 default_args={
      'owner': 'Cley',
+     'start_date': timedelta(days=1),
+     'retries': 1,
+     'retry_delay': timedelta(minutes=5),
 }
 
 dag = DAG(
